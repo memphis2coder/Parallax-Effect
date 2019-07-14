@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#first {
+     /* Set a specific height */
+    height: 100vh;
+     /* The image used */
+    background-image: url(./img/pic.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #000;
+}
+h3 {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #000;
+}
+#second {
+    height: 100vh;
+    background-image: url(./img/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second h1 {
+    letter-spacing: 5px;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #000;
+}
